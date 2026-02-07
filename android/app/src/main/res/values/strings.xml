@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CockpitHealthMonitor</string>
+    <string name="health_widget_description">A widget to display the health of your Cockpit nodes.</string>
+</resources>
