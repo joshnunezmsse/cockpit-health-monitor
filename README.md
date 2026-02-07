@@ -45,7 +45,7 @@ You only need to install the service on **one** machine (your main Cockpit node)
 
 ### 1. Download & Install
 
-Go to the **[Releases](https://www.google.com/search?q=https://github.com/%3Cyour-username%3E/cockpit-health-monitor/releases)** page and download the latest `install_monitor.sh` script.
+Go to the **[Releases](https://github.com/joshnunezmsse/cockpit-health-monitor/releases)** page and download the latest `install_monitor.sh` script.
 
 ```bash
 # Upload the script to your server, then run:
@@ -81,7 +81,7 @@ If you need to change the port or the SSH user after installation, edit the conf
 
 ## 📱 Getting Started (Android App)
 
-1. Download the APK from the **[Releases](https://www.google.com/search?q=https://github.com/%3Cyour-username%3E/cockpit-health-monitor/releases)** page.
+1. Download the APK from the **[Releases](https://github.com/joshnunezmsse/cockpit-health-monitor/releases)** page.
 2. Connect to your home Wi-Fi (or VPN).
 3. Open the app.
 4. **Auto-Discovery:** It should automatically find your Cockpit node.
@@ -107,10 +107,10 @@ python3 monitor_api.py
 * Open the `android/` directory in **Android Studio Koala** (or newer).
 * Sync Gradle and run on your emulator or device.
 
-See [CONTRIBUTING.md](https://www.google.com/search?q=CONTRIBUTING.md) for detailed guidelines on submitting Pull Requests.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on submitting Pull Requests.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE) - see the https://www.google.com/search?q=LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
