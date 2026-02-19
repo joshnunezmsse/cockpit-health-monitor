@@ -86,7 +86,7 @@ class HealthWidgetConfigureActivity : ComponentActivity() {
             workManager.enqueue(immediateWorkRequest)
             workManager.enqueueUniquePeriodicWork(
                 HealthWidgetWorker.UNIQUE_WORK_NAME,
-                ExistingPeriodicWorkPolicy.KEEP, // Keep the existing worker if it's already running
+                ExistingPeriodicWorkPolicy.UPDATE, // Update to ensure any old constraints are removed
                 periodicWorkRequest
             )
 
